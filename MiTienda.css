@@ -68,6 +68,12 @@ font-weight: bold;
 
 .Buscador{
     margin-left: 136px; 
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    
 }
 
 .iconitos{
@@ -103,4 +109,12 @@ font-weight: bold;
     background-color: black;
     margin-left:-50px;
     margin-top: -7px;
+}
+
+
+.orden{
+    display:flex;
+    font-size: 9px;
+    width:100px; 
+
 }
