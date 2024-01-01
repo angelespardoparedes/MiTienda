@@ -1,0 +1,106 @@
+/*** CSS global**/
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{list-style: none;}
+h1{width: 180px;}
+
+/** CSS encabezado**/
+
+header{
+    display:flex;
+    margin-top: 20px;
+
+}
+
+.menuLateral{
+    position:absolute; 
+
+}
+
+.generos{
+display: flex;
+font-size: 12px; 
+font-weight: bold;
+}
+
+.mujer{
+    margin-left: 5px; 
+    
+}
+.hombre{
+    margin-left: 10px;
+    color:gray;
+}
+
+.bold{
+    font-weight: bold;
+}
+.rojo{
+    color:red; 
+}
+
+.gris{
+    color:gray;
+}
+
+.opcion{
+    margin-top: 5px;
+    margin-bottom: 2px;
+    font-size: 15px;
+}
+.title{
+    margin-left: 400px;
+    width:500px; 
+}
+
+.secciones{
+    display:flex;
+    font-size: 11px;
+    margin-left: -50px;
+}
+
+.seccion{
+    margin-left: 2px;
+    margin-right: 1px;
+}
+
+.Buscador{
+    margin-left: 136px; 
+}
+
+.iconitos{
+    display:flex; 
+    margin-top: 2px;
+}
+.ico{
+    height:10px;
+    width:10px;
+}
+
+.lupa{
+    margin-left: -50px;
+}
+.personita{
+    margin-right: 5px;
+    margin-left: 90px;
+}
+
+.candadito{
+    margin-left: 10px;
+}
+
+.Buscar{
+    font-size: 10px;
+    margin-top: 1px;
+    margin-left: 8px;
+}
+
+.linea{
+    width:130px;
+    height:1px;
+    background-color: black;
+    margin-left:-50px;
+    margin-top: -7px;
+}
