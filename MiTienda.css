@@ -135,3 +135,40 @@ font-weight: bold;
     color:rgb(200, 196, 196);
     font-weight: bold;
 }
+
+main{
+    display:flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin-left: 10px;
+}
+.foto{
+    width:216px; 
+}
+.fotoPrenda{
+    height:243px; 
+    width:200px; 
+    margin: 5px;
+    padding:5px; 
+}
+
+.fotoPrenda p{
+    font-size: 9px;
+    margin-left:60px;
+}
+
+.foto{
+    margin-bottom: 0;
+}
+
+.prenda{
+    margin-bottom: 1px;
+}
+
+.precio{
+    margin-top: 3px;
+ }
+
+ .fondoFoto{
+    background-color: bisque;
+ }
