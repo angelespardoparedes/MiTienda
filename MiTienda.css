@@ -67,27 +67,26 @@ font-weight: bold;
 }
 
 .Buscador{
-    margin-left: 136px; 
     display:flex;
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: flex-start;
     align-items: center;
+    margin-top: 20px;
     
 }
 
 .iconitos{
     display:flex; 
     margin-top: 2px;
+    margin-left:2px; 
 }
 .ico{
     height:10px;
     width:10px;
 }
 
-.lupa{
-    margin-left: -50px;
-}
+
 .personita{
     margin-right: 5px;
     margin-left: 90px;
@@ -107,14 +106,32 @@ font-weight: bold;
     width:130px;
     height:1px;
     background-color: black;
-    margin-left:-50px;
+    margin-left:2px;
     margin-top: -7px;
+}
+
+.minimenu{
+    margin-left: -60px;
+    margin-top: 15px;
 }
 
 
 .orden{
     display:flex;
     font-size: 9px;
-    width:100px; 
+    width:150px; 
 
+}
+
+.orden li a{
+    text-decoration: none;
+    margin-right:2px; 
+    margin-left: 2px;
+    font-size: 8px;
+    color:rgb(77, 76, 76)
+}
+
+.cuatro{
+    color:rgb(200, 196, 196);
+    font-weight: bold;
 }
