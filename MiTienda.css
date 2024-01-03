@@ -136,6 +136,8 @@ font-weight: bold;
     font-weight: bold;
 }
 
+/** Parte central: fotos del producto*/
+
 main{
     display:flex;
     flex-wrap: wrap;
